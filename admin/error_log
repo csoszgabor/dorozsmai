@@ -1,0 +1,48 @@
+[06-Oct-2025 08:28:11 Europe/Budapest] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: users in /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/inc/auth.php:6
+Stack trace:
+#0 /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/inc/auth.php(6): PDO->prepare('SELECT * FROM u...')
+#1 /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/admin/login.php(13): auth_login('admin', 'admin123')
+#2 {main}
+  thrown in /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/inc/auth.php on line 6
+[06-Oct-2025 08:28:44 Europe/Budapest] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: users in /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/inc/auth.php:6
+Stack trace:
+#0 /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/inc/auth.php(6): PDO->prepare('SELECT * FROM u...')
+#1 /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/admin/login.php(13): auth_login('admin', 'Admin123')
+#2 {main}
+  thrown in /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/inc/auth.php on line 6
+[06-Oct-2025 08:31:36 Europe/Budapest] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: users in /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/inc/auth.php:6
+Stack trace:
+#0 /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/inc/auth.php(6): PDO->prepare('SELECT * FROM u...')
+#1 /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/admin/login.php(13): auth_login('admin@dorozs.hu', 'Admin123')
+#2 {main}
+  thrown in /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/inc/auth.php on line 6
+[06-Oct-2025 08:33:22 Europe/Budapest] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: users in /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/inc/auth.php:6
+Stack trace:
+#0 /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/inc/auth.php(6): PDO->prepare('SELECT * FROM u...')
+#1 /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/admin/login.php(10): auth_login('admin@dorozs.hu', 'Admin123')
+#2 {main}
+  thrown in /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/inc/auth.php on line 6
+[06-Oct-2025 08:35:31 Europe/Budapest] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: users in /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/inc/auth.php:6
+Stack trace:
+#0 /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/inc/auth.php(6): PDO->prepare('SELECT * FROM u...')
+#1 /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/admin/login.php(10): auth_login('admin@dorozs.hu', 'Admin123')
+#2 {main}
+  thrown in /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/inc/auth.php on line 6
+[06-Oct-2025 10:06:21 Europe/Budapest] PHP Fatal error:  Uncaught Error: Call to undefined function fetchOne() in /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/admin/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/admin/index.php on line 39
+[06-Oct-2025 13:26:48 Europe/Budapest] PHP Warning:  require(/home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/admin/inc/bootstrap.php): failed to open stream: No such file or directory in /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/admin/index.php on line 2
+[06-Oct-2025 13:26:48 Europe/Budapest] PHP Warning:  require(/home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/admin/inc/bootstrap.php): failed to open stream: No such file or directory in /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/admin/index.php on line 2
+[06-Oct-2025 13:26:48 Europe/Budapest] PHP Fatal error:  require(): Failed opening required '/home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/admin/inc/bootstrap.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/admin/index.php on line 2
+[06-Oct-2025 13:26:55 Europe/Budapest] PHP Warning:  require(/home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/admin/inc/bootstrap.php): failed to open stream: No such file or directory in /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/admin/index.php on line 2
+[06-Oct-2025 13:26:55 Europe/Budapest] PHP Warning:  require(/home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/admin/inc/bootstrap.php): failed to open stream: No such file or directory in /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/admin/index.php on line 2
+[06-Oct-2025 13:26:55 Europe/Budapest] PHP Fatal error:  require(): Failed opening required '/home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/admin/inc/bootstrap.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/admin/index.php on line 2
+[06-Oct-2025 13:34:54 Europe/Budapest] PHP Warning:  require(/home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/admin/inc/bootstrap.php): failed to open stream: No such file or directory in /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/admin/index.php on line 2
+[06-Oct-2025 13:34:54 Europe/Budapest] PHP Warning:  require(/home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/admin/inc/bootstrap.php): failed to open stream: No such file or directory in /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/admin/index.php on line 2
+[06-Oct-2025 13:34:54 Europe/Budapest] PHP Fatal error:  require(): Failed opening required '/home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/admin/inc/bootstrap.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/admin/index.php on line 2
+[06-Oct-2025 13:35:28 Europe/Budapest] PHP Fatal error:  Uncaught Error: Call to undefined function fetchOne() in /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/admin/catalog-edit.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/admin/catalog-edit.php on line 33
+[06-Oct-2025 13:35:32 Europe/Budapest] PHP Notice:  Undefined index: tab in /home/csoszgab/iparifoto.hu/teszt/dorozs-teszt/admin/catalog-edit.php on line 152
